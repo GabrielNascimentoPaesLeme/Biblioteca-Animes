@@ -1,0 +1,39 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header li {
+    display: inline-block;
+    margin: 20px;
+}
+
+header h1 {
+    line-height: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    display: inline;
+}
+
+a:hover{
+    color: #FAD363;
+    transition: 0.5s;
+}
+
+.menu a:last-child{
+    border: 1px solid #FAD363;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.menu a:last-child:hover{
+    background-color: #FAD363;
+    color: #fff;
+}

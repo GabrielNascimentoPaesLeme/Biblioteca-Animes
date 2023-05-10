@@ -1,0 +1,137 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main";
+    gap: 15px;
+    grid-template-columns: auto ;
+    grid-template-rows: auto 90%;
+    background: url(../componentes/imagens/bg_ptn.jpg)center top;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.o-header{
+    grid-area: header;
+    background: url(../componentes/imagens/bg_1.png)top no-repeat;
+}
+
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.home{
+    height: 40vh;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+.textos{
+    margin: 0;
+}
+
+.o-main{
+    grid-area: main;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    max-width: 90vw;
+    justify-self: center;
+   
+}
+
+
+
+.animes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px;
+}
+
+
+.one-piece{
+    background: url(../componentes/imagens/one-piece-wallpaper-1280x720_45.jpg) center center no-repeat;
+}
+
+.naruto{
+    background: url(../componentes/imagens/naruto.jpg) center center no-repeat;
+}
+
+.pokemon{
+    background: url(../componentes/imagens/demon-slayer.jpg) center center no-repeat;
+}
+
+.hero{
+    background: url(../componentes/imagens/693425.jpg) center center no-repeat;
+
+}
+
+.shingeki{
+    background: url(../componentes/imagens/shingeki.jpg) center center no-repeat;
+}
+
+.bleach{
+    background: url(../componentes/imagens/bleach.jpg) center center no-repeat;
+    
+}
+
+.item{
+    background-size: cover;
+    width: 25vw;
+    height: 37vh;
+}
+
+
+
+@media screen and (max-width:1682px){
+    .item{
+        width: 35vw;
+        height: 20vh;
+    }
+
+    
+}
+
+@media screen and (max-width:1024px){
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .menu {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .item{
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .navegacao{
+        display: block;
+    }
+
+    .home{
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .item{
+        width: 50vw;
+    }
+
+    .home{
+        font-size: 40px;
+    }
+}
+
