@@ -6,14 +6,14 @@ body{
     gap: 15px;
     grid-template-columns: auto ;
     grid-template-rows: auto 90%;
-    background: url(../componentes/imagens/bg_ptn.jpg)center top;
+    background: url(componentes/imagens/bg_ptn.jpg)center top;
     color: #fff;
     font-family: 'Poppins', sans-serif;
 }
 
 .o-header{
     grid-area: header;
-    background: url(../componentes/imagens/bg_1.png)top no-repeat;
+    background: url(componentes/imagens/bg_1.png)top no-repeat;
 }
 
 .navegacao{
@@ -55,28 +55,28 @@ body{
 
 
 .one-piece{
-    background: url(../componentes/imagens/one-piece-wallpaper-1280x720_45.jpg) center center no-repeat;
+    background: url(componentes/imagens/one-piece-wallpaper-1280x720_45.jpg) center center no-repeat;
 }
 
 .naruto{
-    background: url(../componentes/imagens/naruto.jpg) center center no-repeat;
+    background: url(componentes/imagens/naruto.jpg) center center no-repeat;
 }
 
 .pokemon{
-    background: url(../componentes/imagens/demon-slayer.jpg) center center no-repeat;
+    background: url(componentes/imagens/demon-slayer.jpg) center center no-repeat;
 }
 
 .hero{
-    background: url(../componentes/imagens/693425.jpg) center center no-repeat;
+    background: url(componentes/imagens/693425.jpg) center center no-repeat;
 
 }
 
 .shingeki{
-    background: url(../componentes/imagens/shingeki.jpg) center center no-repeat;
+    background: url(componentes/imagens/shingeki.jpg) center center no-repeat;
 }
 
 .bleach{
-    background: url(../componentes/imagens/bleach.jpg) center center no-repeat;
+    background: url(componentes/imagens/bleach.jpg) center center no-repeat;
     
 }
 
