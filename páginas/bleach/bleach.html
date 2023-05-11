@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>One Piece</title>
+    <title>Bleach</title>
 
     <link rel="stylesheet" href="../../estilos/style.css">
     <link rel="stylesheet" href="../../estilos/menu.css">
@@ -15,6 +15,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <style>
+        @font-face {
+            font-family: "bleach";
+            src: url(../../componentes/fonte/FontBleach.ttf);
+        }
+
+
         html, body{
             height: 100%;
         }
@@ -22,19 +28,12 @@
         .bg {
             background: url(../../componentes/imagens/bleach-bg.jpg)center top no-repeat;
             background-size: cover;
-            height: 100%;
-            padding: 0;
-            max-width: 100vw;
-            margin: auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
             color: white;
         }
 
 
         ul{
-            font-size: 20px;
+            font-size: 15px;
         }
 
         ul a{
@@ -44,6 +43,15 @@
         .lista-trailers{
             list-style: none;
         }
+
+        .nome h2{
+            font-size: 30px;
+        }
+
+        .anime h1{
+            font-family: "bleach";
+        }
+
     </style>
 
 </head>
@@ -67,13 +75,13 @@
 
     <main class="animes">
         <section class="section-anime">
-            <div>
-                <h2>Uzumaki Naruto</h2>
+            <div class="nome">
+                <h2>Ichigo Kurosaki</h2>
             </div>
 
-            <div class="one-piece">
-                <h1>Naruto</h1>
-                <p>Naruto é um anime baseado no mangá de mesmo nome escrito por Masashi Kishimoto. A série gira em torno das aventuras vividas por Naruto Uzumaki, um jovem órfão habitante da Aldeia da Folha que sonha em se tornar o quinto Hokage, o maior guerreiro e governante da vila.</p>
+            <div class="anime">
+                <h1>BLEACH</h1>
+                <p>O jovem Ichigo é surpreendido com indesejadas habilidades de ceifeiro de almas e quer devolver os poderes. Mas deve executar algumas tarefas antes.</p>
             </div>
             
 
@@ -87,9 +95,9 @@
         <aside>
             <h2>informações:</h2>
             <ul>
-                <li> 20 Temporadas</li>
-                <li>1.056 Episódios</li>
-                <li>18 Filmes</li>
+                <li> 16 Temporadas</li>
+                <li>366 Episódios</li>
+                <li>4 Filmes + 1 Live Action</li>
             </ul>
 
             <div class="videos">
